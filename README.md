@@ -40,36 +40,53 @@ TopicDanmaku 是一款帮助用户积攒话题关键词的应用，旨在解决�
 ## 开发环境
 - 平台：Adobe AIR for Android，Adobe AIR for Desktop
 
-- 开发环境：VScode，Adobe Animate 2021
+- 开发环境：Adobe Animate 2021
 
 - 尺寸：Android：720x1280
 
-  ​            Windows：1920x1080
+  ​            Windows：1280x720
 
 - 主程序：`TopicDanmaku.as`
 
 ## 文件结构
 ```ActionScript3.0
 TopicDanmaku/
-└── Android/
-    ├── TopicDanmaku-app.xml
-    ├── TopicDanmaku.apk
-    ├── TopicDanmaku.as
-    ├── TopicDanmaku.fla
-    ├── TopicDanmaku.html
-    ├── TopicDanmaku.swf
-    ├── components/
-    │   ├── Bubble.as
-    │   ├── BubbleManager.as
-    │   └── topicsManager.as
-    ├── icos/
-    │   ├── 36.png
-    │   ├── 48.png
-    │   ├── 72.png
-    │   ├── 96.png
-    │   ├── 144.png
-    │   └── 192.png
-    ├── td.p12
-    ├── 策划书.txt
-    └── 使用说明.txt
+├── Android/
+│   ├── TopicDanmaku-app.xml
+│   ├── TopicDanmaku.apk
+│   ├── TopicDanmaku.as
+│   ├── TopicDanmaku.fla
+│   ├── TopicDanmaku.html
+│   ├── TopicDanmaku.swf
+│   ├── components/
+│   │   ├── Bubble.as
+│   │   ├── BubbleManager.as
+│   │   └── topicsManager.as
+│   ├── icos/
+│   │   ├── 36.png
+│   │   ├── 48.png
+│   │   ├── 72.png
+│   │   ├── 96.png
+│   │   ├── 144.png
+│   │   └── 192.png
+│   └── td.p12
+├── Windows/
+│   ├── TopicDanmaku-app.xml
+│   ├── TopicDanmaku.as
+│   ├── TopicDanmaku.fla
+│   ├── TopicDanmaku.html
+│   ├── TopicDanmaku.swf
+│   ├── components/
+│   │   ├── Bubble.as
+│   │   ├── BubbleManager.as
+│   │   └── topicsManager.as
+│   ├── icos/
+│   │   ├── 16.png
+│   │   ├── 32.png
+│   │   ├── 48.png
+│   │   └── 128.png
+│   └── td.p12
+├── 策划书.txt
+├── 使用说明.txt
+└── README.md
 ```

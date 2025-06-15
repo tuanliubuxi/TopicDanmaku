@@ -18,7 +18,7 @@
 -->
 <application xmlns="http://ns.adobe.com/air/application/51.2">
   <id>TopicDanmaku</id>
-  <versionNumber>1.0.5</versionNumber>
+  <versionNumber>1.0.6</versionNumber>
   <versionLabel>stable</versionLabel>
   <filename>TopicDanmaku</filename>
   <description/>

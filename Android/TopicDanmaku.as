@@ -40,24 +40,18 @@ var so:SharedObject = SharedObject.getLocal("topicsData");
 if (so.data.topicsData) {
     topicsData = so.data.topicsData as Array; // 显式转换为Array类型
 }
-
-// 无本地数据时添加默认测试数据（原逻辑调整到加载后）
-//else{
-	//首次运行时可添加默认数据
-	//pushData(topicsData,"#话题1#","备注1");
-	//pushData(topicsData,"#话题2#","备注2");
-	//pushData(topicsData,"#话题3#","备注3");
-	//pushData(topicsData,"#话题4#","备注4");
-	//pushData(topicsData,"#话题5#","备注5");
-	//pushData(topicsData,"#话题6#","备注6");
-	//pushData(topicsData,"#话题7#","备注7");
-	//pushData(topicsData,"#话题8#","备注8");
-	//pushData(topicsData,"#话题9#","备注9");
-	//pushData(topicsData,"#话题10#","备注10");
-	//pushData(topicsData,"#话题11#","备注11");
-	//pushData(topicsData,"#话题12#","备注12");
-	//pushData(topicsData,"#话题13#","备注13");
-//}
+if(so.data.topicsData.length == 0)
+{
+	//首次运行时添加默认数据
+	pushData(topicsData,"点我一下看看","这是我的备注内容");
+	pushData(topicsData,"#右滑进入菜单栏#","点击界面左上角的菜单栏按钮也可以打开菜单");
+	pushData(topicsData,"#双击背景切换暗色模式#","再次双击可以切换回去");
+	pushData(topicsData,"#点开“菜单栏——话题管理”，#","可以查看并编辑该话题对应的备注内容");
+	pushData(topicsData,"#点一下右上角的“⏸”按钮试试#","所有气泡都暂停了哦");
+	pushData(topicsData,"#点击“菜单栏——话题管理——添加话题”，可以添加话题，备注选填","同一个话题只能添加一次哦");
+	pushData(topicsData,"#点击以下右上角的刷新按钮试试#","你会看到所有气泡的大小和颜色，还有飘动速度都发生了变化！");
+	pushData(topicsData,"#菜单栏里的使用说明有更多详细信息#","有项目地址跟QQ交流群哦");
+}
 
 //初始化气泡
 managerInit();
