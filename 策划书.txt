@@ -4,7 +4,7 @@
 SDK:Adobe AIR SDK 51.2.1.5
 开发环境：Adobe Animate 2021
 界面尺寸：Android：720*1280
-	Windows：1280*720
+	Windows：1920*1080
 主程序：TopicDanmaku.as
 开发要求：多定义几个类，方便各个组件定义、元件绘制以及后期维护，文件目录简洁明了，写上必要的注释。
 菜单栏呼出方式：

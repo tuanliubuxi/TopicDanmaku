@@ -44,7 +44,7 @@ TopicDanmaku 是一款帮助用户积攒话题关键词的应用，旨在解决�
 
 - 尺寸：Android：720x1280
 
-  ​            Windows：1280x720
+  ​            Windows：1920x1300
 
 - 主程序：`TopicDanmaku.as`
 

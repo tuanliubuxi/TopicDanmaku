@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/51.2">
+  <id>TopicDanmaku</id>
+  <versionNumber>1.0.5</versionNumber>
+  <versionLabel>stable</versionLabel>
+  <filename>话题弹幕</filename>
+  <description>话题弹幕</description>
+  <name>话题弹幕</name>
+  <copyright/>
+  <initialWindow>
+    <content>TopicDanmaku.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>direct</renderMode>
+    <autoOrients>false</autoOrients>
+    <width>919</width>
+    <height>650</height>
+    <maximizable>false</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>false</resizable>
+    <x>200</x>
+    <y>100</y>
+  </initialWindow>
+  <icon>
+    
+    
+    
+    
+    
+    
+    <image16x16>icos/16.png</image16x16>
+    <image32x32>icos/32.png</image32x32>
+    <image48x48>icos/48.png</image48x48>
+    <image128x128>icos/128.png</image128x128>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <android>
+    <manifestAdditions><![CDATA[<manifest>
+</manifest>]]></manifestAdditions>
+  </android>
+  <supportedProfiles>desktop extendedDesktop </supportedProfiles>
+</application>
