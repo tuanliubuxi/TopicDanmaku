@@ -37,11 +37,13 @@ function managerInit():void
 
 // 从本地存储加载话题数据
 var so:SharedObject = SharedObject.getLocal("topicsData");
+// 检查本地存储中是否已有数据
 if (so.data.topicsData) {
     topicsData = so.data.topicsData as Array; // 显式转换为Array类型
-}
-if(so.data.topicsData.length == 0)
-{
+} else {
+    // 如果本地存储中没有数据，初始化为空数组
+    so.data.topicsData = [];
+    topicsData = [];
 	//首次运行时添加默认数据
 	pushData(topicsData,"点我一下看看","这是我的备注内容");
 	pushData(topicsData,"#右滑进入菜单栏#","点击界面左上角的菜单栏按钮也可以打开菜单");
